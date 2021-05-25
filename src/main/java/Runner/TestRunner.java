@@ -10,8 +10,11 @@ import cucumber.api.junit.Cucumber;
 				
 				features = "C:/Users/Home PC/eclipse-Myworkspace/CucumberBDD_FreeCRMTest1/src/main/java/Features", 
 				glue= {"stepDefinition"},
-				monochrome = true,plugin = {"html:target/cucumber-html-report", "json:target/cucumber-json-report.json" }
-				
+				//format= {"pretty","html:test-output","json:json_output/cucumber.json"},
+				plugin = {"pretty","html:target/cucumber-html-report", "json:target/cucumber-json-report.json", "junit:target/junit_xml/cucumber.xml" },
+				monochrome = true,
+				dryRun =false,
+				strict=true
 		)
 	
 public class TestRunner {

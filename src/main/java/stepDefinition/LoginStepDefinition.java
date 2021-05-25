@@ -20,7 +20,7 @@ public class LoginStepDefinition {
 @Given("^user is already on Login Page$")
 public void user_is_already_on_Login_Page()
 {
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Home PC\\eclipse-Myworkspace\\CucumberBDD_FreeCRMTest1\\src\\main\\java\\resourcesLatest\\chromedriver.exe");	
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Home PC\\eclipse-Myworkspace\\CucumberBDD_FreeCRMTest1\\src\\main\\java\\resources\\chromedriver.exe");	
 	driver = new ChromeDriver(); 
 	driver.get("https://classic.freecrm.com/index.html?e=1");    
 

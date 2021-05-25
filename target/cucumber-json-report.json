@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9704811400,
+              "duration": 8325646100,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 75186900,
+              "duration": 44796000,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 361315200,
+              "duration": 560493100,
               "status": "passed"
             },
             "line": 7,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 1591860900,
+              "duration": 1430377400,
               "status": "passed"
             },
             "line": 8,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 37927600,
+              "duration": 21420900,
               "error_message": "org.junit.ComparisonFailure: expected:\u003c... sales, and support.[****]\u003e but was:\u003c... sales, and support.[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinition.LoginStepDefinition.user_is_on_home_page(LoginStepDefinition.java:64)\r\n\tat ✽.And user is on home page(login.feature:9)\r\n",
               "status": "failed"
             },
