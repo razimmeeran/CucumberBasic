@@ -61,7 +61,7 @@ public void user_is_on_home_page()
 {
 	String HomePageTitl= driver.getTitle();
 	
-	Assert.assertEquals("Free CRM - CRM software for customer relationship management, sales, and support.****", HomePageTitl);
+	Assert.assertEquals("Free CRM - CRM software for customer relationship management, sales, and support.", HomePageTitl);
 	
 
 }
